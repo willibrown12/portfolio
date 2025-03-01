@@ -1,0 +1,96 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.img-container {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 20vh; /* Move content slightly above center */
+}
+
+
+.flex {
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+   
+}
+
+
+
+
+
+
+.div-img {
+
+    height: 60vh; /* Use viewport height for relative sizing */
+    margin: 20px;
+    background: #f5f5f5;
+    overflow: hidden;
+    width: 60%; /* Make the container width relative */
+    border-radius: 10px;
+}
+
+
+.img-container img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+
+.img-container img:hover {
+    transform: scale(1.1); /* Zoom in by 10% */
+}
+
+
+
+.img-container h2 {
+    color: #4ff0b7;
+    margin: 0;
+    font-family: JetBrains Mono, monospace;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 1.2;
+    position: absolute;
+    display: inline-block;
+    top: calc( 55vh);
+    left: calc(50% + 40vh);
+    background-color: rgba(53, 53, 53, 0.83);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img-container p {
+    font-size: 20px;
+  
+    margin: 0;
+    font-family: JetBrains Mono, monospace;
+    width: 70%;
+    line-height: 1.2;
+    position: absolute;
+    display: inline-block;
+    top: calc(92%);
+    background-color: rgba(67, 67, 67, 0.83);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.progress {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #4ff0b7;
+    bottom: 30px;
+    transform: scaleX(0);
+}
