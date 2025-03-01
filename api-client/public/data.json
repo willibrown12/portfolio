@@ -3,7 +3,7 @@
       "id": 1,
       "github": "https://github.com/willibrown12/project_vacations",
       "title": "Project Vacation",
-      "image": "public/Screenshot 2025-02-22 173639.png",
+      "image": "./Screenshot 2025-02-22 173639.png",
       "link": "http://34.82.202.15:4200/home",
       "description": "This full-stack app, built with React, an API, and a database, lets users register, log in, and explore vacations. Users can like vacations, while admins can add, edit, delete, and view vacation stats. Token-based authentication ensures secure access. Contact me for admin credentials to explore advanced features!"
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "github": "https://github.com/willibrown12/rmq-order",
       "title": "Project RMQ-Queue",
-      "image": "public/Screenshot 2025-02-22 174047.png",
+      "image": "./Screenshot 2025-02-22 174047.png",
       "link": "http://34.82.202.15:4201/home",
       "description": "This full-stack application, built with React, a custom API, and a database, integrates RabbitMQ (RMQ) for real-time queue management. It features two pages: a customer page where users can join a service queue and track their turn, and an admin page where admins can view and manage the queue, assisting customers in real-time."
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "github": "https://github.com/willibrown12/crypto",
       "title": "CryptoManiac",
-      "image": "public/Screenshot 2025-02-22 200019.png",
+      "image": "./Screenshot 2025-02-22 200019.png",
       "link": "https://willibrown12.github.io/userdatadom",
       "description": "This Vanilla JavaScript project uses three APIs to deliver real-time cryptocurrency data. Search for any crypto, view its price in USD and ILS, and track favorites with a live graph showing current value changes. Perfect for monitoring the crypto market in real-time."
     }
