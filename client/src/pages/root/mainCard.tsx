@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 
 const handleDownload = () => {
   const link = document.createElement("a");
-  link.href = "./public/willi brown resume .pdf";
+  link.href = "/willi brown resume .pdf";
   link.download = "willi brown resume.pdf"; // Optional: Specify the default filename
   document.body.appendChild(link);
   link.click();
