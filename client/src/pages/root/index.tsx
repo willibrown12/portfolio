@@ -115,12 +115,12 @@ function ResponsiveAppBar() {
                 <LinkedInIcon fontSize="large" color="secondary" />
               </a>
               <a
-                href={"mailto:https://mail.google.com/mail/u/0/#inbox"}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <EmailIcon fontSize="large" color="secondary" />
-              </a>
+  href="mailto:viliking123@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <EmailIcon fontSize="large" color="secondary" />
+</a>
               <FormGroup>
                 <FormControlLabel
                   control={
